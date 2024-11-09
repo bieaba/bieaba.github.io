@@ -1,0 +1,209 @@
+/* General styling */
+
+*{  
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #1a2e3b;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styling */
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #39e34d;
+}
+
+/* Welcome Section */
+#intro_div{
+  text-align: center;
+}
+
+#intro-content{
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+#intro-paragraph{
+  width: 100%; 
+  text-align: justify; 
+}
+
+#welcome-section {
+    padding-top: 80px;
+    margin-left: 20px;
+    text-align: ;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #39e34d;
+}
+
+.kenechi {
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+/* Qualifications Section */
+#qualification-content{
+  display: ;
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+  text-align: ;
+}
+
+#qualification-p{
+  text-align: justify;
+}
+
+#qualifications {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #39e34d;
+}
+
+h3{
+  width: auto;
+  font-size: 18px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    margin: 40px 0;
+}
+
+#img-content{
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
+
+.img-container {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #ffffff;    text-decoration: none;
+}
+
+/* Projects Section */
+#projects-content{
+  align-content: center;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  display: flex;
+}
+
+#right-div{
+  width:auto;
+  align-content: right;
+}
+
+#projects {
+    margin: 40px 0;
+    
+}
+
+.project-tile {
+    font-size: 1.5rem;
+    color: #39e34d;
+    text-align: center;
+}
+
+#projects a {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#projects img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+/* Socials Section */
+#profile-link {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.social a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .img-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        padding: 15px;
+    }
+}
